@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   typesense-kubernetes-operator:
   - apiVersion: v2
-    appVersion: 3.2
+    appVersion: 3.0.1
     created: "2025-05-04T14:45:06.335162+05:30"
     description: A Helm chart for deploying the Typesense Operator on Kubernetes
     digest: 5fd9711c48a587a826cdeb050e319bc7c67e4f958555602b95faec9c3e43e9e5
