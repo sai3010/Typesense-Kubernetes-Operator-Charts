@@ -33,5 +33,5 @@ spec:
             limits:
               memory: {{ .Values.resources.limits.memory }}
               cpu: {{ .Values.resources.limits.cpu }}
-          nodeSelector:
-            {{- toYaml .Values.nodeSelector | nindent 12 }}
+      nodeSelector:
+        {{- toYaml .Values.nodeSelector | nindent 12 }}
